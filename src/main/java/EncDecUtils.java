@@ -1,8 +1,13 @@
+import java.util.Base64;
 
 public class EncDecUtils {
 
     public void gradleTest() {
         System.out.println("Successful");
+    }
+
+    public String encodeToBase64(byte[] input) {
+        return Base64.getEncoder().encodeToString(input);
     }
 
     public void encrypt(String fileContent) {
