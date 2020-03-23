@@ -1,5 +1,6 @@
 
 public class EncDecUtils {
+
     public void gradleTest() {
         System.out.println("Successful");
     }
