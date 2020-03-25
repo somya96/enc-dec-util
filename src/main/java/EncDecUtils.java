@@ -13,7 +13,7 @@ public class EncDecUtils {
         return Base64.getEncoder().encodeToString(input);
     }
 
-    public void encrypt() throws JsonProcessingException {
+    public void serializeToJson() throws JsonProcessingException {
         TestDO domain = new TestDO();
         domain.setId(123);
         String testObj = new ObjectMapper().writeValueAsString(domain);

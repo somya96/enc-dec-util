@@ -4,7 +4,7 @@ public class Main {
         try {
             EncDecUtils encDecUtils = new EncDecUtils();
             encDecUtils.gradleTest();
-            encDecUtils.encrypt();
+            encDecUtils.serializeToJson();
         } catch (Exception e) {
 
         }
